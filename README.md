@@ -1,5 +1,6 @@
-# javascript-drumkit
-A simple JavaScript powered drumkit page.
+# ![JavaScript30](https://javascript30.com)
 
-# JavaScript30 project
-https://heydante.github.io/javascript-drimkit
+## JavaScript DrumKit
+
+Link to project: https://heydante.github.io/javascript-drimkit
+Know more about this on my blog
