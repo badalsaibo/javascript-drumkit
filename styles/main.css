@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Indie+Flower|Source+Code+Pro:200|Indie+Flower');
+
+html {
+  font-size: 10px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(http://res.cloudinary.com/dexcinod0/image/upload/q_80/v1502558464/image_bzd4ra.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.key {
+  border: .3rem solid #1C1C1C;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding:0;
+  transition: all .07s ease;
+  width: 7.5rem;
+  text-align: center;
+  color: white;
+}
+
+kbd {
+  display: block;
+  font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+footer {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+
+a:hover {
+  color: #CF000F;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
+
+/* animation */
+.playing {
+  transform: scale(1.1);
+  border-color: #CF000F;
+  box-shadow: 0 0 10px #CF000F;
+}
