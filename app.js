@@ -13,3 +13,11 @@ function removeTransition(e) {
 const keys = document.querySelectorAll(".key");
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener("keydown", playSound);
+
+window.onload = checkWidth;
+
+function checkWidth() {
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    alert("Oops! This thing is not mobile ready. Go grab your laptop.")
+  }
+}
