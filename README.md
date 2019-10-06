@@ -1,6 +1,7 @@
-# [JavaScript30](https://javascript30.com)
+# JavaScript DrumKit 🥁
 
-## JavaScript DrumKit
+This was one of the JavaScript 30 projects I did. 
+I like music so it was fun to make this. 
 
-Link to project: https://heydante.github.io/javascript-drimkit
+See it live: https://heydante.github.io/javascript-drimkit
 
